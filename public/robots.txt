@@ -1,0 +1,20 @@
+# Robust Robots.txt for AiRS - Ai ROBO FAB SOLUTIONS
+User-agent: *
+Allow: /
+
+# Disallow sensitive admin and auth areas
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /login
+Disallow: /signup
+Disallow: /reset-password
+Disallow: /api/
+Disallow: /checkout/success
+Disallow: /order-confirmation
+
+# Host and Sitemap (Placeholder - update these with your final domain)
+# Host: airs-solutions.com
+# Sitemap: https://airs-solutions.com/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 10
